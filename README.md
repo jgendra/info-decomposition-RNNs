@@ -32,10 +32,9 @@ NeuroAI-Project13/
 │   ├── accuracies_n_losses/        # Training losses and accuracy logs
 │   ├── pid_outputs/                # Saved PID atom arrays (Redundancy, Synergy, Unique)
 |   └── unit_PID_outputs/           # Saved unit-to-all PID atom arrays (Redundancy, Synergy, Unique)
-├── figures/                        # Generated plots for the presentation and technical note
+├── figures/                        # Final plots discussed in the technical note
 ├── elman_vs_ctrnn_comparison/      # Architectural comparison experiments
-├── size_comparison/                # Hidden-size capacity experiments
-└── roadmap_generator/              # Roadmap for project planning and task management
+└── size_comparison/                # Hidden-size capacity experiments
 ```
 
 Directory Details:
@@ -73,7 +72,7 @@ If you are running this on a standard laptop without an NVIDIA GPU:
 pip install -e .
 ```
 
-*Note: The Partial Information Decomposition (PID) analysis uses a custom-built, pure-Python Gaussian PID estimator included in the source code. No external Java dependencies or JIDT installations are required.*
+*Note: The PID analysis uses a custom-built, pure-Python Gaussian PID estimator included in the source code. No external Java dependencies or JIDT installations are required.*
 
 ### Execution & Figure Generation
 
@@ -115,7 +114,7 @@ pip install -e .
 ## 4. Author contributions
 * **Harris** implemented the NeuroGym task wrappers, continuous-time RNN architecture, and researched the networks hiddensize influence.
 * **Jean-Pasqual** finished the data generation pipeline and CTRNN architecture, configured the training pipeline, and conducted the Elman vs. CTRNN performance comparison.
-* **Jan** adapted the training pipeline, wrote the Partial Information Decomposition (PID) algorithms, conducted the information-theoretic and statistical analysis, and generated the final information-geometry figures.
+* **Jan** adapted the training pipeline, wrote the PID algorithms, conducted the information-theoretic and statistical analysis, and generated the final information-geometry figures.
 * All authors contributed to the literature review, project planning, experimental design, drafting of the technical note, and preparation of the final presentation slides.
 
 | File / Directory | Description | Main Contributor(s) | Assistant(s) |
