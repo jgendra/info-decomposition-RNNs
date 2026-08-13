@@ -1,4 +1,4 @@
-# Information Decomposition in Task-Trained RNNs
+# Information Decomposition in Decision-Making RNNs
 
 ![status](https://img.shields.io/badge/status-completed-success)
 ![python](https://img.shields.io/badge/python-3.11-blue)
@@ -6,7 +6,7 @@
 
 
 ## 1. Project summary
-In this work, we investigate whether cognitive integration demand shapes the distribution of information within recurrent neural networks (RNNs). Closely replicating the experimental design of Mante et al. (2013), we train continuous-time RNNs (CTRNNs) on two NeuroGym tasks with differing integration requirements (Perceptual vs. Context decision-making). We then evaluate the networks' internal representations using Partial Information Decomposition (PID) to quantify redundant, unique, and synergistic information. Our analysis compares these information profiles to understand how normative task pressures alter representational geometry.
+In this work, we investigate whether context integration demand shapes the distribution of information within recurrent neural networks (RNNs). Closely replicating the experimental design of Mante et al. (2013), we train continuous-time RNNs (CTRNNs) on two NeuroGym tasks with differing integration requirements (Perceptual vs. Context decision-making). We then evaluate the networks' internal representations using Partial Information Decomposition (PID) to quantify redundant, unique, and synergistic information. Our analysis compares these information profiles to understand how normative task pressures alter representational geometry.
 
 **Research questions**
 1. How does the information structure of the internal representations of task-trained RNNs depend on the task integration demand?
