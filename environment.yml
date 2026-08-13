@@ -1,4 +1,4 @@
-name: neuroai-project13
+name: info-decomposition-RNNs
 channels:
   - nvidia
   - pytorch

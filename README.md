@@ -10,7 +10,7 @@ This project tests whether cognitive integration demands shape how information i
 
 ## 2. Repository structure
 ```text
-NeuroAI-Project13/
+info-decomposition-RNNs/
 ├── README.md                       # Project overview and instructions
 ├── technical_note.md               # Scientific motivation, hypotheses, detailed methodology, and limitations
 ├── environment.yml                 # Pinned conda environment
@@ -53,7 +53,7 @@ Choose the installation method that matches your hardware:
 Conda automatically resolves the correct PyTorch CUDA binaries.
 ```bash
 conda env create -f environment.yml
-conda activate neuroai-project13
+conda activate info-decomposition-RNNs
 pip install -e .
 ```
 

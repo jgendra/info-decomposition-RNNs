@@ -1,6 +1,6 @@
 # Mante 2013 Dataset Pipeline — Generation & Loading
 
-Dataset pipeline for Project 13: Information Decomposition in Task-Trained RNNs.
+Dataset pipeline: Information Decomposition in Task-Trained RNNs.
 This pipeline replaces the standard PerceptualDecisionMaking-v0 to perfectly replicate the biological constraints and signal-to-noise ratios of Mante et al. (2013).
 
 ## Files
