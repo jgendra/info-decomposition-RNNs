@@ -1,4 +1,4 @@
-# Technical Note: Information Decomposition in Task-Trained RNNs
+# Technical Note: Information Decomposition in Decision-Making RNNs
 
 ## 1. Motivation and Scientific Questions
 
