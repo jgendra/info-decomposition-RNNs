@@ -17,7 +17,7 @@ In this work, we investigate whether context integration demand shapes the distr
 ```text
 info-decomposition-RNNs/
 ├── README.md                       # Project overview and instructions
-├── technical_note.md               # Scientific motivation, hypotheses, detailed methodology, and limitations
+├── technical_note.md               # Project motivation, hypotheses, methods, results, and conclusions
 ├── environment.yml                 # Pinned conda environment
 ├── requirements.txt                # Pip dependencies
 ├── pyproject.toml                  # Project module configuration
