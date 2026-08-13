@@ -8,6 +8,11 @@
 ## 1. Project summary
 In this work, we investigate whether cognitive integration demand shapes the distribution of information within recurrent neural networks (RNNs). Closely replicating the experimental design of Mante et al. (2013), we train continuous-time RNNs (CTRNNs) on two NeuroGym tasks with differing integration requirements (Perceptual vs. Context decision-making). We then evaluate the networks' internal representations using Partial Information Decomposition (PID) to quantify redundant, unique, and synergistic information. Our analysis compares these information profiles to understand how normative task pressures alter representational geometry.
 
+**Research questions**
+1. How does the information structure of the internal representations of task-trained RNNs depend on the task integration demand?
+2. How does this change the redundancy and synergy balance?
+
+
 ## 2. Repository structure
 ```text
 info-decomposition-RNNs/
