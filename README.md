@@ -6,7 +6,7 @@
 
 
 ## 1. Project summary
-This project tests whether cognitive integration demands shape how information is distributed within recurrent neural networks. Closely replicating the experimental design of Mante et al. (2013), we train continuous-time RNNs (CTRNNs) on two NeuroGym tasks with differing integration requirements (Perceptual vs. Context). We evaluate the networks' internal representations using Partial Information Decomposition (PID) to quantify redundant, unique, and synergistic information. Our analysis compares these information profiles to understand how normative task pressures alter representational geometry.
+In this project, we investigate whether cognitive integration demand shapes the distribution of information within recurrent neural networks (RNNs). Closely replicating the experimental design of Mante et al. (2013), we train continuous-time RNNs (CTRNNs) on two NeuroGym tasks with differing integration requirements (Perceptual vs. Context decision-making). We evaluate the networks' internal representations using Partial Information Decomposition (PID) to quantify redundant, unique, and synergistic information. Our analysis compares these information profiles to understand how normative task pressures alter representational geometry.
 
 ## 2. Repository structure
 ```text
@@ -77,7 +77,7 @@ pip install -e .
 ### Execution & Figure Generation
 
 1. **Dataset generation:** 
-    - The datasets have to be generated to use the notebooks. They are pre-configured in `src/tasks/mante_config.py` and will be saved into the relative `data/[task]` directory.
+    - The datasets have to be generated to use the notebooks. They are preconfigured in `src/tasks/mante_config.py` and will be saved to the corresponding `data/[task]` directory.
     - Notebook `notebooks/01_neurogym_datasets.ipynb` walks through the dataset generation and shows what the actual data looks like- 
     - Alternative to reproduce our results run `python src/tasks/data_generator.py --mode context` and `python src/tasks/data_generator.py --mode perceptual`. 
     - If you use the provided model weights (without retraining), you can omit the train and validation set generation by providing the extra parameters `--n_train 0 --n_val 0`. 
