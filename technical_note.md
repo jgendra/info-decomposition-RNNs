@@ -21,7 +21,7 @@ $$Red = \min(I(X_1 ; Y), I(X_2 ; Y))$$
 Once redundancy is fixed, the unique information follows as $I(X_i ; Y) - Red$, and synergy is the remaining joint information.
 
 ### Hypotheses and Predictions
-We hypothesize that the PID profile of a task-trained RNN at the end of the stimulus period is mainly determined by the task's integration demand.
+We hypothesize that the PID profile of a task-trained RNN at the end of the stimulus period (i.e., decision-making time) is mainly determined by the task's integration demand.
 
 * **Prediction 1:** Mutual Information (and subsequently synergy and redundancy) will peak at the end of the stimulus period. In RNNs, evidence accumulation culminates right before a decision is made, maximizing the total MI the network carries about the stimulus.
 * **Prediction 2:** The Context task will lead to a more synergistic RNN, while the Perceptual task will lead to a more redundant RNN. Combining multiple input streams (context cue + stimulus) forces the network to encode information synergistically, since the task cannot be decoded by any single unit reading all channels. Conversely, single-stream accumulation (Perceptual task) can be decoded redundantly in parallel.
