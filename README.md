@@ -16,7 +16,7 @@ In this work, we investigate whether context integration demand shapes the distr
 ## 2. Repository structure
 ```text
 info-decomposition-RNNs/
-├── README.md                       # Project overview and instructions
+├── README.md                       # Project overview, instructions, and contributions
 ├── technical_note.md               # Project motivation, hypotheses, methods, results, and conclusions
 ├── environment.yml                 # Pinned conda environment
 ├── requirements.txt                # Pip dependencies
