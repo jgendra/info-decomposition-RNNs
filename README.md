@@ -118,7 +118,7 @@ pip install -e .
 
 ## 4. Author contributions
 * **Harris** implemented the NeuroGym task wrappers, continuous-time RNN architecture, and researched the networks hiddensize influence.
-* **Jean-Pasqual** finished the data generation pipeline and CTRNN architecture, configured the training pipeline, and conducted the Elman vs. CTRNN performance comparison.
+* **Jean-Pasqual (JP)** finished the data generation pipeline and CTRNN architecture, configured the training pipeline, and conducted the Elman vs. CTRNN performance comparison.
 * **Jan** adapted the training pipeline, wrote the PID algorithms, conducted the information-theoretic and statistical analysis, and generated the final information-geometry figures.
 * All authors contributed to the literature review, project planning, experimental design, drafting of the technical note, and preparation of the final presentation slides.
 
