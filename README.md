@@ -27,8 +27,8 @@ info-decomposition-RNNs/
 │   ├── 03_PID_analysis_pipeline.ipynb  # PID computation, statistical analysis, and results figures
 │   └── 04_PID_bipartitions.ipynb       # Exploring number of random bipartition splits for PID
 ├── src/                            # Helper modules, model definitions, and task wrappers
-│   ├── analysis/                   # Gaussian MMI-PID definition and algorithms
-│   ├── models/                     # Model definitions
+│   ├── analysis/                   # Gaussian MMI-PID definition and PID algorithms
+│   ├── models/                     # RNN model definitions
 │   ├── tasks/                      # NeuroGym task wrappers and data generation pipeline
 ├── results/                 
 │   ├── stimulus_coherences/        # Manually saved coherence arrays for PID analysis
