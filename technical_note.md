@@ -1,12 +1,13 @@
 # Technical Note: Information Decomposition in Decision-Making RNNs
 
-## 1. Motivation and Scientific Questions
+## 1. Motivation and Research Questions
 
 It is not well understood how information processing in neural circuits relates to the structure and organization of their internal representations. In 2022, Luppi et al. studied the information structure across different brain areas and found that sensorimotor cortices are strongly redundant, while association cortices are strongly synergistic. This suggests that different functional and integration demands drive different information structures, though the biological mechanisms remain unclear.
 
 Previously, Mante et al. (2013) studied context-dependent decision-making in the prefrontal cortex (PFC), an association area, by comparing macaque PFC activity with that of recurrent neural networks (RNNs) trained on high-integration-demand tasks. They found that context-dependent decisions require a recurrent, population-level solution that cannot be decomposed into independent units. While this is the conceptual definition of synergy, they did not quantify this using formal information-theoretic measures. 
 
-Bringing these two perspectives together, we aim to answer the primary research question: **Does the high integration demand of context information lead to synergy in neural representations?**
+Bringing these two perspectives together, we aim to answer: **How does the information structure of the internal representations learned by task-trained RNNs depend on the context integration demand of the task**, and **how does this change the redundancy and synergy balance of the representations?**
+
 
 ### Background: Partial Information Decomposition
 Classical information-theoretic measures, such as mutual information (MI) or Fisher information, quantify *how much* information a neural network carries in total, but not *how that information is distributed* across its units. 
