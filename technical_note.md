@@ -6,7 +6,7 @@ It is not well understood how information processing in neural circuits relates 
 
 Previously, Mante et al. (2013) studied context-dependent decision-making in the prefrontal cortex (PFC), an association area, by comparing macaque PFC activity with that of recurrent neural networks (RNNs) trained on high-integration-demand tasks. They found that context-dependent decisions require a recurrent, population-level solution that cannot be decomposed into independent units. While this is the conceptual definition of synergy, they did not quantify this using formal information-theoretic measures. 
 
-Bringing these two perspectives together, we aim to answer: **How does the information structure of the internal representations learned by task-trained RNNs depend on the context integration demand of the task**, and **how does this change the redundancy and synergy balance of the representations?**
+Bringing these two perspectives together, we aim to answer: **How does the information structure of the internal representations learned by task-trained RNNs depend on the context integration demand of the task**, and **how does integration demand change the redundancy and synergy balance of the representations?**
 
 
 ### Background: Partial Information Decomposition
