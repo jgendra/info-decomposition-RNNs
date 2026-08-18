@@ -3,7 +3,7 @@
 ![status](https://img.shields.io/badge/status-completed-success)
 ![python](https://img.shields.io/badge/python-3.11-blue)
 ![framework](https://img.shields.io/badge/framework-PyTorch-ee4c2c)
-[![technical note](https://img.shields.io/badge/technical%20note-PDF-b31b1b)](docs/technical_note.pdf)
+[![technical note](https://img.shields.io/badge/technical%20note-Markdown-informational)](technical_note.md)
 
 ## 1. Project summary
 In this work, we investigate whether context integration demand shapes the distribution of information within recurrent neural networks (RNNs). Closely replicating the experimental design of Mante et al. (2013), we train continuous-time RNNs (CTRNNs) on two NeuroGym tasks with differing integration requirements (Perceptual vs. Context decision-making). We then evaluate the networks' internal representations using Partial Information Decomposition (PID) to quantify redundant, unique, and synergistic information. Our analysis compares these information profiles to understand how normative task pressures alter representational geometry.
@@ -12,8 +12,7 @@ In this work, we investigate whether context integration demand shapes the distr
 1. How does the information structure of the internal representations of task-trained RNNs depend on the task integration demand?
 2. How does integration demand change the redundancy and synergy balance?
 
-> **Technical note.** Full methods, results, and conclusions are documented in
-> [*Context Integration Demand Shapes Redundancy-Synergy Balance in Decision-Making RNNs*](docs/technical_note.pdf).
+**Hypotheses, methods, results, and conclusions** are documented in [*Technical note*](docs/technical_note.pdf).
 
 ## 2. Repository structure
 ```text
