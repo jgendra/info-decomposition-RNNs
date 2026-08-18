@@ -12,7 +12,7 @@ In this work, we investigate whether context integration demand shapes the distr
 1. How does the information structure of the internal representations of task-trained RNNs depend on the task integration demand?
 2. How does integration demand change the redundancy and synergy balance?
 
-**Hypotheses, methods, results, and conclusions** are documented in [*Technical note*](docs/technical_note.pdf).
+**Hypotheses, methods, results, and conclusions** are documented in [*Technical note*](technical_note.md).
 
 ## 2. Repository structure
 ```text
